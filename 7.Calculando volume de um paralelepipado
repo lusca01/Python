@@ -1,0 +1,5 @@
+comp=int(input("Digite o valor do comprimento do parelelepipedo "))
+larg=int(input("Digite o valor da largura do paralelepipedo " ))
+alt=int(input("Digite o valor da altura do paralelepipedo "))
+volume= comp*larg*alt 
+print ("O volume do paralelepipedo é " ,volume)

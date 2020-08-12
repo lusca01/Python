@@ -1,0 +1,4 @@
+velm=int(input("Digite a velocidade media "))
+temp=int(input("Digite o tempo de percurso "))
+li= (velm*temp)/12
+print ("A quantidade de litros de gasolina gasta no percurso foi " ,li)

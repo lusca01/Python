@@ -1,0 +1,4 @@
+aliqg=int(input("Digite a quantidade de alimento em quilos "))
+aligm= aliqg*1000
+dias= aligm/50
+print ("Essa quantidade de alimentos irá durar" ,dias ,"dias")

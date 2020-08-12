@@ -1,0 +1,4 @@
+sal=int(input("Digite o valor do salário "))
+reaj= (sal*15)/100
+salfinal= (reaj+sal)
+print ("O salário com reajuste ficará: " ,salfinal)

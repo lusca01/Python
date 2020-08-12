@@ -1,0 +1,8 @@
+v1=float(input("Digite um valor "))
+v2=float(input("Digite um outro valor "))
+if v1 > v2 :
+    res= v1-v2
+    print ("A diferença entre os valor é " ,res)
+else:
+    res= v2-v1
+    print ("A diferençã entres os valores é " ,res)

@@ -1,0 +1,10 @@
+hrs=int(input("Digite a quantidade de horas trabalhadas "))
+vlhr=int(input("Digite o valor a ser recebido por hora trabalhada "))
+desc=int(input("Digite a % a ser descontada "))
+descen=int(input("Digite a quantidade de descendentes "))
+sal= hrs*vlhr
+print ("O salário será " ,sal)
+saliq= sal - ((sal*desc)/100)
+print ("O salário liquido será " ,saliq)
+salfinal= saliq+ (descen*100)
+print ("O salário final será " ,salfinal)

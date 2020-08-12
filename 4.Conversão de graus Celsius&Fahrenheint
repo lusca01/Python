@@ -1,0 +1,3 @@
+celsius=int(input("Digite a temperatura em graus celsius "))
+fah= (9*celsius+160)/5
+print ("A temperatura em fahrenheint é: " ,fah)

@@ -1,0 +1,6 @@
+nasc=int(input("Digite o ano que nasceu "))
+atual=int(input("Digite o ano atual "))
+idade= atual-nasc
+print ("Sua idade atual é " ,idade)
+fut= idade+17
+print ("Daqui 17 anos sua idade será " ,fut)

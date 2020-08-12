@@ -1,0 +1,7 @@
+X=int(input("Digite o primeiro valor "))
+Y=int(input("Digite o segundo valor "))
+x1=Y
+Y=X 
+X=x1
+print ("Trocando os valores de posição fica " ,X )
+print ("E" ,Y)
