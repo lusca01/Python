@@ -1,0 +1,11 @@
+Inv= int(input("Digite o valor que será investido "))
+Tipo= int(input("Digite o tipo de investimento 1- Poupança, 2- Renda fixa "))
+if Tipo == 1:
+  Corr= (Inv*0.03) + Inv
+  print("Após 30 dias o valor investido estará valendo ", Corr)
+else:
+  if Tipo == 2:
+    Corr= (Inv*0.05) + Inv
+    print("Após 30 dias o valor investido estará valendo ", Corr)
+  else:
+    print ("Opção inválida")

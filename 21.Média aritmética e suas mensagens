@@ -1,0 +1,12 @@
+n1=int(input("Digite a nota do primeiro bimestre "))
+n2=int(input("Digite a nota do segundo bimestre "))
+n3=int(input("Digite a nota do terceiro bimestre "))
+n4=int(input("Digite a nota do quarto bimestre "))
+media= (n1+n2+n3+n4)/4
+if media >= 6:
+  print("APROVADO")
+else:
+  if media >=3 and media < 6:
+    print("EXAME")
+  else:
+    print("RETIDO") 

@@ -1,0 +1,26 @@
+HI= int(input("Digite a hora em que começou a jogar: "))
+MI= int(input("Digite o minuto em que comçou a jogar: "))
+HF= int(input("Digite a hora em que parou de jogar: "))
+MF= int(input("Digite o minuto em que parou de jogar: "))
+if HI > 23 or HF > 23 or MI > 59 or MF > 59:
+  print("Algum valor inserido está incorreto")
+else:
+  if HI <= HF and MI <= MF:
+    HJ= HF - HI
+    MJ= MF - MI
+    print("O tempo jogado foi ",HJ,":",MJ)
+  else:
+    if HI < HF and MI > MF:
+      HJ= (HF - HI) - 1
+      MJ= (MF + 60) - MI
+      print("O tempo jogado foi ",HJ,":",MJ)
+    else:
+      if HI > HF and MI <= MF:
+        HJ= (HF+24) - HI
+        MJ= MF - MI
+        print("O tempo jogado foi ",HJ,":",MJ)
+      else:
+        if HI >= HF and MI >= MF:
+          HJ= (HF+23)- HI
+          MJ= (MF+60)- MI
+          print("O tempo jogado foi ",HJ,":",MJ)

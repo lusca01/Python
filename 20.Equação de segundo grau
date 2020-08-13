@@ -1,0 +1,16 @@
+import math
+A=float(input("Digite o valor de A "))
+B=float(input("Digite o valor de B "))
+C=float(input("Digite o valor de C "))
+b2=B*B
+delta= (b2-4*A*C)
+if delta < 0:
+  print("Não possui ráizes")
+else:
+  if delta == 0:
+    X1= -B/(2*A)
+    print("Possui raízes iguais ",X1)
+  else:
+    X1= (-B -math.sqrt(delta))/(2*A)
+    X2= (-B +math.sqrt(delta))/(2*A)
+    print("As duas raízes são ",X1," e ",X2)

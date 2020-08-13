@@ -1,0 +1,9 @@
+x=int(input("Digite um valor qualquer"))
+y=int(input("Digite outro valor qualquer"))
+if x > y:
+  print ("O maior número digitado foi o ",x)
+else:
+  if y > x:
+    print("O maior número digitado foi o ",y)
+  else:
+    print("Os números digitados são iguais")

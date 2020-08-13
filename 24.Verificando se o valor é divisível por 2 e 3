@@ -1,0 +1,9 @@
+x=int(input("Digite um número que queira ver se é divisível por 2 e 3 ")
+if (x % 2 == 0) and (x % 3 == 0):
+  print ("O número ",x," é divisível por 2 e 3")
+else: 
+  if x % 2 == 0 and not x % 3 == 0:
+    print("O número ",x," é divisível apenas por 2")
+  else:
+    if x % 3 == 0 and not x % 2 == 0:
+      print("O número ",x," é divisível apenas por 3")

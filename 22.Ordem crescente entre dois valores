@@ -1,0 +1,9 @@
+x= int(input("Digite um número "))
+y=int(input("Digite outro número "))
+if x > y:
+  print ("Os números em ordem crescente ficam ", y, x)
+else:
+  if y > x:
+    print ("Os números em ordem crescente ficam ", x, y)
+  else:
+    print ("Números iguais")  

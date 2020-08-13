@@ -1,0 +1,7 @@
+Numv=int(input("Digite o número de voltas"))
+Ext= int(input("Digite a extensão do circuito em metros "))
+Tempo= int(input("Digite o tempo de duração em minutos "))
+km= (Ext*Numv)/1000
+hr= Tempo/60
+Velmed= km/hr
+print("A velocidade média desse percurso é " ,Velmed,"km/hr")

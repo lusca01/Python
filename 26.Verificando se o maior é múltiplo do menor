@@ -1,0 +1,12 @@
+x= int(input("Digite um número "))
+y= int(input("Digite outro número "))
+if x > y and x % y == 0:
+  print(x, " é divisível por ",y)
+else:
+  if y > x and y % x == 0:
+    print(y, " é divisível por ",x)
+  else:
+    if y == x:
+      print("Números iguais")
+    else:
+      print("O maior número não é divisível pelo menor")
