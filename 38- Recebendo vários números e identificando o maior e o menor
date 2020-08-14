@@ -1,0 +1,13 @@
+n= int(input("Digite um número: "))
+z= n
+l= n 
+x= 1
+while x < 10:
+  n= int(input("Digite um número: "))
+  if n > z:
+    z = n 
+  else:
+    if n < l:
+      l = n
+  x = x + 1
+print("O maior número digitado foi o ",z," e o menor foi o ",l)

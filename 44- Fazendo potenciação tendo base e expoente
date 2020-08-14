@@ -1,0 +1,9 @@
+Base=int(input("Digite a base da potência: "))
+Exp=int(input("Digite o expoente da potência: "))
+c = 1
+Pot= Base
+while c < Exp:
+  Res = Pot * Base
+  Base = Res
+  c = c + 1
+print("A potência dos valores digitados é: ",Res)

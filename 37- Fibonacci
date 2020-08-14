@@ -1,0 +1,11 @@
+n=int(input("Digite a quantidade de termos quer saber da série Fibonacci: "))
+n1=0
+n2=1
+x= 0
+c= 0
+while c < n:
+  print(x)
+  n1 = n2
+  n2 = x 
+  x = n1 + n2
+  c = c + 1

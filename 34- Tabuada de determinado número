@@ -1,0 +1,7 @@
+n= int(input("Digite o número que queira ver sua tabuada "))
+c= 1
+print("A tabuada de ",n," é :")
+while c <= 10:
+  z = n * c
+  print(z)
+  c = c + 1
