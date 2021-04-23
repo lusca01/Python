@@ -1,1 +1,2 @@
-# Algumas lógicas feitas na linguagem Python.
+# Python
+  _Algumas lógicas feitas na linguagem de programação Python._
